@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700&display=swap');
+
+
+.left{
+    width: 368px;
+    height: 512px;
+    border-radius: 32px;
+    background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+    text-align: center;
+
+}
+.right{
+    margin-left: 40px;
+}
+.main{
+    width: 736px;
+    height: 512px;
+    background-color: white;
+    border-radius: 32px;
+    display: flex;
+    
+}
+.sum{
+    
+    color: #303B59;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 38px;
+    margin-bottom: 45px;
+    font-family: Hanken Grotesk;
+}
+.oval-image { 
+    margin-top: 35px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
+    margin: auto;
+    margin-top: 35px;
+
+    
+
+    
+    
+ 
+ }
+ .result{
+    color: #CAC9FF;
+    font-size: 24px;
+    height: 31px;
+    font-weight: 700;
+    margin-top: 38px;
+    display: inline-block;
+    font-family: Hanken Grotesk;
+    
+ }
+ .score{
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    color: white;
+    display: inline-block;
+    margin-top: 55px;
+    font-family: Hanken Grotesk;
+ }
+ .f-score{
+
+    margin-bottom: 46px;
+    color: #CAC9FF;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Hanken Grotesk;
+ }
+ .g{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin-top: 28px;
+    font-family: Hanken Grotesk;
+ }
+ .text{
+    color: #CAC9FF;
+    font-size: 18px;
+    font-weight: 500;
+    width: 260px;
+    height: 69px;
+    margin: auto;
+    margin-top: 14px;
+    font-family: Hanken Grotesk;
+ }
+ .RR{
+    height: 56px;
+    width: 288px;
+    border-radius: 12px;
+    background: var(--red-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    
+    
+
+ }
+ .RR1{
+    display: flex;
+    
+ }
+
+ 
+ 
+ .space{
+    margin-left: 16px;
+    margin-right: 12px;
+ }
+ 
+ 
+ .reaction{
+    color: #FF5555;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Hanken Grotesk;
+ }
+ .memory{
+    color: #FFB21E;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Hanken Grotesk;
+ }
+ .MM{
+    height: 56px;
+    width: 288px;
+    border-radius: 12px;
+    background: var(--yellow-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+ }
+ .verbal{
+    color: #00BB8F;
+    font-size: 18px;
+    font-family: Hanken Grotesk;
+    font-weight: 500;
+ }
+ .VER{
+    height: 56px;
+    width: 288px;
+    border-radius: 12px;
+    background: var(--green-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+ }
+
+ .dark{
+    font-size: 18px;
+    font-weight: 700;
+    color: #303B59;
+    text-align: right;
+    font-family: Hanken Grotesk;
+ }
+ .light{
+    font-size: 18px;
+    font-weight: 700;
+    color: #a2afd3;
+   text-align: right;
+   font-family: Hanken Grotesk;
+ }
+ .VIS{
+    height: 56px;
+    width: 288px;
+    border-radius: 12px;
+    background: var(--blue-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+
+ }
+ .visual{
+    font-family: Hanken Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1125D6;
+ }
+
+ .button{
+    background-color: #303B59;
+    width: 288px;
+    height: 56px;
+    border-radius: 128px;
+    margin-top: 41px;
+
+ }
+ .button:hover{
+    background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+ }
+body{
+    background-color:#ECF2FF; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.bt{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 17px;
+    font-family: Hanken Grotesk;
+    
+}
